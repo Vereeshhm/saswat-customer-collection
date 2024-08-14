@@ -563,3 +563,72 @@ java.lang.IllegalArgumentException: Name for argument of type [java.lang.String]
 14-08-2024 16:48:50.603 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
 14-08-2024 16:48:50.643 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8081 (http) with context path '/collect'
 14-08-2024 16:48:50.658 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarted::56 - Started SaswatCustomerCollectionApplication in 6.059 seconds (process running for 6.589)
+14-08-2024 17:05:44.449 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarting::50 - Starting SaswatCustomerCollectionApplication using Java 17.0.10 with PID 6972 (C:\saswat-projects\saswat-customer-collection\bin\main started by VereeshHereemata in C:\saswat-projects\saswat-customer-collection)
+14-08-2024 17:05:44.458 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+14-08-2024 17:05:44.524 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14-08-2024 17:05:44.525 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14-08-2024 17:05:45.381 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14-08-2024 17:05:45.484 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 84 ms. Found 4 JPA repository interfaces.
+14-08-2024 17:05:46.381 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8081 (http)
+14-08-2024 17:05:46.402 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+14-08-2024 17:05:46.403 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+14-08-2024 17:05:46.480 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].log::173 - Initializing Spring embedded WebApplicationContext
+14-08-2024 17:05:46.481 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 1955 ms
+14-08-2024 17:05:46.676 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+14-08-2024 17:05:46.760 [34mINFO [0;39m org.hibernate.Version.logVersion::44 - HHH000412: Hibernate ORM core version 6.4.9.Final
+14-08-2024 17:05:46.808 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+14-08-2024 17:05:47.148 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+14-08-2024 17:05:47.181 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-1 - Starting...
+14-08-2024 17:05:47.418 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@eee9b36
+14-08-2024 17:05:47.420 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-1 - Start completed.
+14-08-2024 17:05:47.473 [31mWARN [0;39m org.hibernate.orm.deprecation.constructDialect::153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+14-08-2024 17:05:48.618 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14-08-2024 17:05:48.662 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14-08-2024 17:05:49.265 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14-08-2024 17:05:50.035 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+14-08-2024 17:05:50.080 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8081 (http) with context path '/collect'
+14-08-2024 17:05:50.098 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarted::56 - Started SaswatCustomerCollectionApplication in 6.1 seconds (process running for 6.654)
+14-08-2024 17:25:05.353 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarting::50 - Starting SaswatCustomerCollectionApplication using Java 17.0.10 with PID 32252 (C:\saswat-projects\saswat-customer-collection\bin\main started by VereeshHereemata in C:\saswat-projects\saswat-customer-collection)
+14-08-2024 17:25:05.359 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+14-08-2024 17:25:05.439 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14-08-2024 17:25:05.440 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14-08-2024 17:25:06.345 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14-08-2024 17:25:06.448 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 90 ms. Found 4 JPA repository interfaces.
+14-08-2024 17:25:07.530 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8081 (http)
+14-08-2024 17:25:07.549 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+14-08-2024 17:25:07.550 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+14-08-2024 17:25:07.632 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].log::173 - Initializing Spring embedded WebApplicationContext
+14-08-2024 17:25:07.633 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 2192 ms
+14-08-2024 17:25:07.836 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+14-08-2024 17:25:07.923 [34mINFO [0;39m org.hibernate.Version.logVersion::44 - HHH000412: Hibernate ORM core version 6.4.9.Final
+14-08-2024 17:25:07.974 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+14-08-2024 17:25:08.288 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+14-08-2024 17:25:08.335 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-1 - Starting...
+14-08-2024 17:25:08.608 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42468f82
+14-08-2024 17:25:08.611 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-1 - Start completed.
+14-08-2024 17:25:08.663 [31mWARN [0;39m org.hibernate.orm.deprecation.constructDialect::153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+14-08-2024 17:25:09.800 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14-08-2024 17:25:09.846 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14-08-2024 17:25:10.492 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14-08-2024 17:25:11.236 [31mWARN [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::62 - Unable to start LiveReload server
+14-08-2024 17:25:11.263 [31mWARN [0;39m org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.refresh::633 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+14-08-2024 17:25:11.265 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy::650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+14-08-2024 17:25:11.272 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::350 - HikariPool-1 - Shutdown initiated...
+14-08-2024 17:25:11.296 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::352 - HikariPool-1 - Shutdown completed.
+14-08-2024 17:25:11.328 [34mINFO [0;39m org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger.logMessage::82 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+14-08-2024 17:25:11.364 [1;31mERROR[0;39m org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report::40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
