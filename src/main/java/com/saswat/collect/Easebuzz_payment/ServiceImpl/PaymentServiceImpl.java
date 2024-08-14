@@ -34,6 +34,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.saswat.collect.Easebuzz_payment.Entity.InitiateApiLogs;
 import com.saswat.collect.Easebuzz_payment.Entity.RefundApiLogs;
 import com.saswat.collect.Easebuzz_payment.Entity.TransactionApiLogs;
+import com.saswat.collect.Easebuzz_payment.Entity.TransactionEntity;
 import com.saswat.collect.Easebuzz_payment.Repository.InitiateApiLogRepository;
 import com.saswat.collect.Easebuzz_payment.Repository.RefundApiLogRepository;
 import com.saswat.collect.Easebuzz_payment.Repository.TransactionApiLogRepository;
@@ -44,7 +45,6 @@ import com.saswat.collect.Easebuzz_payment.Utils.InitiatePayRequest;
 import com.saswat.collect.Easebuzz_payment.Utils.PropertiesConfig;
 import com.saswat.collect.Easebuzz_payment.Utils.RefundRequest;
 import com.saswat.collect.Easebuzz_payment.Utils.RefundStatusRequest;
-import com.saswat.collect.Easebuzz_payment.Utils.TransactionEntity;
 import com.saswat.collect.Easebuzz_payment.Utils.TransactionStatus;
 
 @Service

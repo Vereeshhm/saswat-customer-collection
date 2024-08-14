@@ -12,12 +12,12 @@ import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "transaction_api_logs")
+@Table(name = "transaction_details")
 public class TransactionApiLogs {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "transaction_api_logs_seq")
-	@SequenceGenerator(name = "transaction_api_logs_seq", sequenceName = "transaction_api_logs_seq", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "transaction_details_seq")
+	@SequenceGenerator(name = "transaction_details_seq", sequenceName = "transaction_details_seq", allocationSize = 1)
 	private Long id;
 
 	private String url;
