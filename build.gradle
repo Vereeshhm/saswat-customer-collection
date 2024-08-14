@@ -1,0 +1,126 @@
+plugins {
+    id("java")
+    id("org.springframework.boot") version "3.2.8"
+    id("io.spring.dependency-management") version "1.1.6"
+}
+
+group = "com.saswat"
+version = "0.0.1"
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.springframework.boot:spring-boot-starter-data-rest")
+    implementation("org.springframework.boot:spring-boot-starter-jdbc")
+    implementation("org.springframework.boot:spring-boot-starter-validation")
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    compileOnly("org.projectlombok:lombok")
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
+    runtimeOnly("org.postgresql:postgresql")
+    annotationProcessor("org.projectlombok:lombok")
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+}
+
+
+
+tasks.withType(org.gradle.api.tasks.Copy) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+
+
+
+jar {
+    enabled = true
+    manifest {
+        attributes(
+            'Main-Class': 'com.saswat.collect.SaswatCustomerCollectionApplication'
+        )
+    }
+}
+
+bootJar {
+    archiveFileName = "${project.name}-${version}.jar"
+    mainClass.set('com.saswat.collect.SaswatCustomerCollectionApplication')
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+
+task createFolder {
+    doLast {
+        def keystoreDir = file("${buildDir}/libs/keystore")
+        def configDir = file("${buildDir}/libs/config")
+        def libDir = file("${buildDir}/libs/lib")
+        def logDir = file("${buildDir}/libs/logs")
+
+        logDir.mkdirs()
+        delete libDir, configDir, keystoreDir
+        libDir.mkdirs()
+        configDir.mkdirs()
+        keystoreDir.mkdirs()
+    }
+}
+
+task copyLib(type: Copy) {
+    dependsOn createFolder
+    into "${buildDir}/libs/lib"
+    from configurations.runtimeClasspath
+}
+
+task copyKeystore(type: Copy) {
+    dependsOn createFolder
+    into "${buildDir}/libs/keystore"
+    from "keystore"
+}
+
+task copyConfig(type: Copy) {
+    dependsOn createFolder
+    into "${buildDir}/libs/config"
+    from "config"
+}
+
+task bundleAll(type: Jar) {
+    dependsOn copyLib, copyConfig, copyKeystore
+
+    manifest {
+        attributes(
+            'Implementation-Title': 'SaswatCustomerCollectionApplication',
+            'Implementation-Version': version,
+            'Main-Class': 'com.saswat.collect.SaswatCustomerCollectionApplication'
+        )
+        attributes 'Class-Path': configurations.runtimeClasspath.files.collect { "lib/${it.name}" }.join(' ')
+    }
+
+    archiveFileName = "${project.name}-${version}.jar"
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    with jar
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF', 'META-INF/*.DSA'
+}
+
+task zip(type: Zip) {
+    dependsOn bundleAll
+    from 'build/libs'
+    archiveFileName = "${project.name}-${version}.zip"
+}
