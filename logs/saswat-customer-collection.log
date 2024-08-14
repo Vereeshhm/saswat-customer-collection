@@ -1,0 +1,540 @@
+14-08-2024 15:48:48.999 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarting::50 - Starting SaswatCustomerCollectionApplication using Java 17.0.10 with PID 6952 (C:\saswat-projects\saswat-customer-collection\bin\main started by VereeshHereemata in C:\saswat-projects\saswat-customer-collection)
+14-08-2024 15:48:49.001 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+14-08-2024 15:48:49.059 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14-08-2024 15:48:49.062 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14-08-2024 15:48:49.764 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14-08-2024 15:48:49.850 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 73 ms. Found 4 JPA repository interfaces.
+14-08-2024 15:48:50.621 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8081 (http)
+14-08-2024 15:48:50.639 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+14-08-2024 15:48:50.640 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+14-08-2024 15:48:50.693 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].log::173 - Initializing Spring embedded WebApplicationContext
+14-08-2024 15:48:50.694 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 1630 ms
+14-08-2024 15:48:50.884 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+14-08-2024 15:48:50.970 [34mINFO [0;39m org.hibernate.Version.logVersion::44 - HHH000412: Hibernate ORM core version 6.4.9.Final
+14-08-2024 15:48:51.014 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+14-08-2024 15:48:51.266 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+14-08-2024 15:48:51.295 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-1 - Starting...
+14-08-2024 15:48:51.508 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14dd3d71
+14-08-2024 15:48:51.510 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-1 - Start completed.
+14-08-2024 15:48:51.542 [31mWARN [0;39m org.hibernate.orm.deprecation.constructDialect::153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+14-08-2024 15:48:52.413 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14-08-2024 15:48:52.459 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14-08-2024 15:48:53.102 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14-08-2024 15:48:53.770 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+14-08-2024 15:48:53.814 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8081 (http) with context path '/collect'
+14-08-2024 15:48:53.826 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarted::56 - Started SaswatCustomerCollectionApplication in 5.188 seconds (process running for 5.582)
+14-08-2024 15:49:45.836 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].log::173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14-08-2024 15:49:45.922 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::80 - Uniquely generated txnid gNr92X03
+14-08-2024 15:49:45.922 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::88 - Generated Hash: 95d6b699ce3105cadfcce214ff7eb518079384d2ecde13ad6efad4ec579643934d8b69a17e9a274c7c966b62e78ede19da3d7b4d0ae702197c8279d4f67d986b
+14-08-2024 15:49:46.088 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::118 - Request Url https://stoplight.io/mocks/easebuzz/payment-gateway/88397287/payment/initiateLink
+14-08-2024 15:49:46.088 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::119 - Requsest Body key=5OEKXZESM&txnid=gNr92X03&amount=1.0&productinfo=test&firstname=vereeesh&phone=9880418761&email=hm@gmail.com&surl=http://localhost/php-kit/response.php&furl=http://localhost/php-kit/response.php&hash=95d6b699ce3105cadfcce214ff7eb518079384d2ecde13ad6efad4ec579643934d8b69a17e9a274c7c966b62e78ede19da3d7b4d0ae702197c8279d4f67d986b&city=JP nagar&state=Karnataka&country=India&zipcode=583273&show_payment_mode=NB,DC,CC,MW,UPI,OM,EMI,CBT,BT&split_payments={ "Easebuzztest 1": 11.0, "Easebuzztest 2": 1.0 }&request_flow=SEAMLESS&sub_merchant_id=78737ab&payment_category=true&account_no=0389738742&ifsc=SBI123
+14-08-2024 15:50:30.111 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::130 - Response Code 500
+14-08-2024 15:50:30.111 [1;31mERROR[0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::169 - Error Response Body: {"name":"https://stoplight.io/prism/errors#INVALID_API_RESPONSE","status":500,"detail":"request to http://public-api:4069/v1/projects/easebuzz/payment-gateway/child-nodes?nodeId=88397287&nodeType=http_operation failed, reason: read ECONNRESET","additional":{"workspaceSlug":"easebuzz","projectSlug":"payment-gateway","url":"/payment/initiateLink","dynamic":false}}
+14-08-2024 15:53:39.591 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::80 - Uniquely generated txnid kWY07J19
+14-08-2024 15:53:39.593 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::88 - Generated Hash: dd9333dde620a9696b05a457df73b528838542f483feeeea34449eb99b9d86e10f81321a0f6cf9d2f60e57e43a79f48d2cd193db4f7ac3a2174b97baec1eae8e
+14-08-2024 15:53:39.593 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::118 - Request Url https://stoplight.io/mocks/easebuzz/payment-gateway/88397287/payment/initiateLink
+14-08-2024 15:53:39.593 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::119 - Requsest Body key=5OEKXZESM&txnid=kWY07J19&amount=1.0&productinfo=test&firstname=vereeesh&phone=9880418761&email=hm@gmail.com&surl=http://localhost/php-kit/response.php&furl=http://localhost/php-kit/response.php&hash=dd9333dde620a9696b05a457df73b528838542f483feeeea34449eb99b9d86e10f81321a0f6cf9d2f60e57e43a79f48d2cd193db4f7ac3a2174b97baec1eae8e&city=JP nagar&state=Karnataka&country=India&zipcode=583273&show_payment_mode=NB,DC,CC,MW,UPI,OM,EMI,CBT,BT&split_payments={ "Easebuzztest 1": 11.0, "Easebuzztest 2": 1.0 }&request_flow=SEAMLESS&sub_merchant_id=78737ab&payment_category=true&account_no=0389738742&ifsc=SBI123
+14-08-2024 15:53:40.029 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::130 - Response Code 200
+14-08-2024 15:53:40.030 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::145 - Response Body {"status":1,"data":"114e574f3d63ca3a88f5f2c470869f926b147faa8a41c63f6381254ab28d26a9"}
+14-08-2024 15:54:19.355 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::80 - Uniquely generated txnid vgX58y64
+14-08-2024 15:54:19.356 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::88 - Generated Hash: fc8841ee01a8f2482bd91d28f08b34aa526877db45f314d42cb38c7e81ffc864903f7b53ebab7a33c197155934e9bfa01f5aa0cb13257409d86cb9ba73c8736b
+14-08-2024 15:54:19.356 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::118 - Request Url https://stoplight.io/mocks/easebuzz/payment-gateway/88397287/payment/initiateLink
+14-08-2024 15:54:19.357 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::119 - Requsest Body key=5OEKXZESM&txnid=vgX58y64&amount=1.0&productinfo=test&firstname=vereeesh&phone=9880418761&email=hm@gmail.com&surl=http://localhost/php-kit/response.php&furl=http://localhost/php-kit/response.php&hash=fc8841ee01a8f2482bd91d28f08b34aa526877db45f314d42cb38c7e81ffc864903f7b53ebab7a33c197155934e9bfa01f5aa0cb13257409d86cb9ba73c8736b&city=JP nagar&state=Karnataka&country=India&zipcode=583273&show_payment_mode=NB,DC,CC,MW,UPI,OM,EMI,CBT,BT&split_payments={ "Easebuzztest 1": 11.0, "Easebuzztest 2": 1.0 }&request_flow=SEAMLESS&sub_merchant_id=78737ab&payment_category=true&account_no=0389738742&ifsc=SBI123
+14-08-2024 15:54:19.772 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::130 - Response Code 200
+14-08-2024 15:54:19.773 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::145 - Response Body {"status":1,"data":"114e574f3d63ca3a88f5f2c470869f926b147faa8a41c63f6381254ab28d26a9"}
+14-08-2024 15:56:04.268 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/collect] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:187)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:108)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+14-08-2024 15:56:15.323 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/collect] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:187)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:108)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+14-08-2024 15:56:46.136 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/collect] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:187)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:108)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+14-08-2024 15:57:41.234 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/collect] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:187)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:108)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+14-08-2024 15:58:24.098 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/collect] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:187)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:108)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+14-08-2024 15:58:27.554 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/collect] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:187)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:108)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+14-08-2024 15:58:49.575 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarting::50 - Starting SaswatCustomerCollectionApplication using Java 17.0.10 with PID 4400 (C:\saswat-projects\saswat-customer-collection\bin\main started by VereeshHereemata in C:\saswat-projects\saswat-customer-collection)
+14-08-2024 15:58:49.589 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+14-08-2024 15:58:49.665 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14-08-2024 15:58:49.666 [34mINFO [0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo::252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14-08-2024 15:58:50.587 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14-08-2024 15:58:50.695 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 89 ms. Found 4 JPA repository interfaces.
+14-08-2024 15:58:51.609 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8081 (http)
+14-08-2024 15:58:51.625 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+14-08-2024 15:58:51.625 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+14-08-2024 15:58:51.704 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].log::173 - Initializing Spring embedded WebApplicationContext
+14-08-2024 15:58:51.705 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 2036 ms
+14-08-2024 15:58:51.902 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+14-08-2024 15:58:51.992 [34mINFO [0;39m org.hibernate.Version.logVersion::44 - HHH000412: Hibernate ORM core version 6.4.9.Final
+14-08-2024 15:58:52.045 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+14-08-2024 15:58:52.333 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+14-08-2024 15:58:52.381 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-1 - Starting...
+14-08-2024 15:58:52.644 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@603c5de
+14-08-2024 15:58:52.647 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-1 - Start completed.
+14-08-2024 15:58:52.681 [31mWARN [0;39m org.hibernate.orm.deprecation.constructDialect::153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+14-08-2024 15:58:53.768 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14-08-2024 15:58:53.815 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14-08-2024 15:58:54.454 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14-08-2024 15:58:55.281 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+14-08-2024 15:58:55.332 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8081 (http) with context path '/collect'
+14-08-2024 15:58:55.349 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarted::56 - Started SaswatCustomerCollectionApplication in 6.247 seconds (process running for 6.816)
+14-08-2024 15:59:03.567 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].log::173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14-08-2024 15:59:03.682 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::80 - Uniquely generated txnid yox29q09
+14-08-2024 15:59:03.717 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::88 - Generated Hash: d69653a61e6a8d4e36398e8b1036ec01b7087b2e540dc55fd642d6d70518f47b05b9a5bd3b27475ec35ec2b37f612c1bda30485748fc3144fac0ed407b30c18b
+14-08-2024 15:59:04.135 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::118 - Request Url https://stoplight.io/mocks/easebuzz/payment-gateway/88397287/payment/initiateLink
+14-08-2024 15:59:04.135 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::119 - Requsest Body key=5OEKXZESM&txnid=yox29q09&amount=1.0&productinfo=test&firstname=vereeesh&phone=9880418761&email=hm@gmail.com&surl=http://localhost/php-kit/response.php&furl=http://localhost/php-kit/response.php&hash=d69653a61e6a8d4e36398e8b1036ec01b7087b2e540dc55fd642d6d70518f47b05b9a5bd3b27475ec35ec2b37f612c1bda30485748fc3144fac0ed407b30c18b&city=JP nagar&state=Karnataka&country=India&zipcode=583273&show_payment_mode=NB,DC,CC,MW,UPI,OM,EMI,CBT,BT&split_payments={ "Easebuzztest 1": 11.0, "Easebuzztest 2": 1.0 }&request_flow=SEAMLESS&sub_merchant_id=78737ab&payment_category=true&account_no=0389738742&ifsc=SBI123
+14-08-2024 15:59:05.269 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::130 - Response Code 200
+14-08-2024 15:59:05.269 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.InitiatePay::145 - Response Body {"status":1,"data":"114e574f3d63ca3a88f5f2c470869f926b147faa8a41c63f6381254ab28d26a9"}
+14-08-2024 15:59:33.061 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/collect] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:187)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:108)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+14-08-2024 16:01:20.982 [1;31mERROR[0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].[dispatcherServlet].log::175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/collect] threw exception [Request processing failed: java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.] with root cause
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.String] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:187)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:162)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:108)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+14-08-2024 16:03:17.985 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.initiateRefund::318 - Extracted txnid from the repository yox29q09
+14-08-2024 16:03:17.988 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.initiateRefund::325 - Generated hash for Transaction status 28dd7c36e6f5f42a949fc6d7237501ce8d1e7b88ef96eecae47507d7bbe9963e3f53762c30f244cb36ef570a58cf801859ade299e05cc08740083cb8d776b428
+14-08-2024 16:03:18.006 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.initiateRefund::342 - Request Body: {"key":"5OEKXZESM","txnid":"yox29q09","refund_amount":1.0,"phone":"9880418761","email":"hm@gmail.com","amount":2.5,"hash":"28dd7c36e6f5f42a949fc6d7237501ce8d1e7b88ef96eecae47507d7bbe9963e3f53762c30f244cb36ef570a58cf801859ade299e05cc08740083cb8d776b428"}
+14-08-2024 16:03:18.634 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.initiateRefund::358 - Response Code: 200
+14-08-2024 16:03:18.637 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.initiateRefund::359 - Response Body: {"status":true,"refund_amount":1,"reason":"Refund initiated, Your Request Id:RU0EBGAKA9","easebuzz_id":"T3W4E9GPRZ","refund_id":"RU0EBGAKA9"}
+14-08-2024 16:03:54.356 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent::211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+14-08-2024 16:03:54.449 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.destroy::650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+14-08-2024 16:03:54.455 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::350 - HikariPool-1 - Shutdown initiated...
+14-08-2024 16:03:54.471 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.close::352 - HikariPool-1 - Shutdown completed.
+14-08-2024 16:03:54.574 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarting::50 - Starting SaswatCustomerCollectionApplication using Java 17.0.10 with PID 4400 (C:\saswat-projects\saswat-customer-collection\bin\main started by VereeshHereemata in C:\saswat-projects\saswat-customer-collection)
+14-08-2024 16:03:54.574 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStartupProfileInfo::654 - No active profile set, falling back to 1 default profile: "default"
+14-08-2024 16:03:54.814 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14-08-2024 16:03:54.844 [34mINFO [0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn::211 - Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+14-08-2024 16:03:54.974 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize::109 - Tomcat initialized with port 8081 (http)
+14-08-2024 16:03:54.976 [34mINFO [0;39m org.apache.catalina.core.StandardService.log::173 - Starting service [Tomcat]
+14-08-2024 16:03:54.976 [34mINFO [0;39m org.apache.catalina.core.StandardEngine.log::173 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+14-08-2024 16:03:54.999 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].log::173 - Initializing Spring embedded WebApplicationContext
+14-08-2024 16:03:54.999 [34mINFO [0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext::296 - Root WebApplicationContext: initialization completed in 422 ms
+14-08-2024 16:03:55.037 [34mINFO [0;39m org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation::31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+14-08-2024 16:03:55.040 [34mINFO [0;39m org.hibernate.cache.internal.RegionFactoryInitiator.initiateService::50 - HHH000026: Second-level cache disabled
+14-08-2024 16:03:55.044 [34mINFO [0;39m org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer::87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+14-08-2024 16:03:55.045 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::110 - HikariPool-2 - Starting...
+14-08-2024 16:03:55.093 [34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool.checkFailFast::565 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@84240a1
+14-08-2024 16:03:55.093 [34mINFO [0;39m com.zaxxer.hikari.HikariDataSource.getConnection::123 - HikariPool-2 - Start completed.
+14-08-2024 16:03:55.102 [31mWARN [0;39m org.hibernate.orm.deprecation.constructDialect::153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+14-08-2024 16:03:55.207 [34mINFO [0;39m org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService::58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14-08-2024 16:03:55.234 [34mINFO [0;39m org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory::437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14-08-2024 16:03:55.395 [31mWARN [0;39m org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor::232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14-08-2024 16:03:55.605 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer::59 - LiveReload server is running on port 35729
+14-08-2024 16:03:55.617 [34mINFO [0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start::241 - Tomcat started on port 8081 (http) with context path '/collect'
+14-08-2024 16:03:55.624 [34mINFO [0;39m com.saswat.collect.SaswatCustomerCollectionApplication.logStarted::56 - Started SaswatCustomerCollectionApplication in 1.086 seconds (process running for 307.091)
+14-08-2024 16:03:55.634 [34mINFO [0;39m org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent::63 - Condition evaluation unchanged
+14-08-2024 16:04:03.934 [34mINFO [0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/collect].log::173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14-08-2024 16:04:03.943 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::200 - Extracted txnid from the repository yox29q09
+14-08-2024 16:04:03.955 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::206 - Generated hash for Transaction status 7342d61ae41eb2a7711648b8939df4ad0441b98b4b0f8fbb9cc85185f9720caaadf40c00d52fa9130a7c16f5709eb878849005d1f477e916a99e51d7810615af
+14-08-2024 16:04:03.960 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::244 - Request Url: https://stoplight.io/mocks/easebuzz/payment-gateway/88393071/transaction/v2.1/retrieve
+14-08-2024 16:04:03.960 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::245 - Request Body: txnid=yox29q09&key=5OEKXZESM&hash=7342d61ae41eb2a7711648b8939df4ad0441b98b4b0f8fbb9cc85185f9720caaadf40c00d52fa9130a7c16f5709eb878849005d1f477e916a99e51d7810615af
+14-08-2024 16:04:04.478 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::256 - Response Code: 200
+14-08-2024 16:04:04.485 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::267 - Response Body: {"status":true,"msg":[{"txnid":"2024071110","firstname":"John","email":"john@gmail.in","phone":"5241526393","key":"ZXXXXXXXXL","mode":"UPI","unmappedstatus":"NA","cardCategory":"NA","addedon":"2024-07-11 11:33:53","payment_source":"Easebuzz","PG_TYPE":"NA","bank_ref_num":"4193707629052","bankcode":"NA","error":"APPROVED OR COMPLETED SUCCESSFULLY","error_Message":"APPROVED OR COMPLETED SUCCESSFULLY","name_on_card":"NA","upi_va":"8745210904-2@ybl","cardnum":"NA","issuing_bank":"NA","easepayid":"E240711WVE30I8","amount":"2.0","net_amount_debit":"2.0","cash_back_percentage":"50.0","deduction_percentage":"0.0","merchant_logo":"NA","surl":"http://localhost/php-kit-update/response.php","furl":"http://localhost/php-kit-update/response.php","productinfo":"Fees collection","udf10":"","udf9":"","udf8":"","udf7":"","udf6":"","udf5":"","udf4":"","udf3":"","udf2":"","udf1":"","card_type":"UPI","hash":"f5bb6091b87350a4b23c0f0e7f26da0dda5958426a942f123b53a1ba83e68d1439c0192110b00bd53c93764a7bca55d9a77f871ab20915fc71b28de47fda6e3e","status":"success","bank_name":"NA","auth_code":"","response_code":"00","error_code":"NA"}]}
+14-08-2024 16:04:08.692 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::200 - Extracted txnid from the repository yox29q09
+14-08-2024 16:04:08.696 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::206 - Generated hash for Transaction status 7342d61ae41eb2a7711648b8939df4ad0441b98b4b0f8fbb9cc85185f9720caaadf40c00d52fa9130a7c16f5709eb878849005d1f477e916a99e51d7810615af
+14-08-2024 16:04:08.696 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::244 - Request Url: https://stoplight.io/mocks/easebuzz/payment-gateway/88393071/transaction/v2.1/retrieve
+14-08-2024 16:04:08.696 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::245 - Request Body: txnid=yox29q09&key=5OEKXZESM&hash=7342d61ae41eb2a7711648b8939df4ad0441b98b4b0f8fbb9cc85185f9720caaadf40c00d52fa9130a7c16f5709eb878849005d1f477e916a99e51d7810615af
+14-08-2024 16:04:09.339 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::256 - Response Code: 200
+14-08-2024 16:04:09.339 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getTransactionstatus::267 - Response Body: {"status":true,"msg":[{"txnid":"2024071110","firstname":"John","email":"john@gmail.in","phone":"5241526393","key":"ZXXXXXXXXL","mode":"UPI","unmappedstatus":"NA","cardCategory":"NA","addedon":"2024-07-11 11:33:53","payment_source":"Easebuzz","PG_TYPE":"NA","bank_ref_num":"4193707629052","bankcode":"NA","error":"APPROVED OR COMPLETED SUCCESSFULLY","error_Message":"APPROVED OR COMPLETED SUCCESSFULLY","name_on_card":"NA","upi_va":"8745210904-2@ybl","cardnum":"NA","issuing_bank":"NA","easepayid":"E240711WVE30I8","amount":"2.0","net_amount_debit":"2.0","cash_back_percentage":"50.0","deduction_percentage":"0.0","merchant_logo":"NA","surl":"http://localhost/php-kit-update/response.php","furl":"http://localhost/php-kit-update/response.php","productinfo":"Fees collection","udf10":"","udf9":"","udf8":"","udf7":"","udf6":"","udf5":"","udf4":"","udf3":"","udf2":"","udf1":"","card_type":"UPI","hash":"f5bb6091b87350a4b23c0f0e7f26da0dda5958426a942f123b53a1ba83e68d1439c0192110b00bd53c93764a7bca55d9a77f871ab20915fc71b28de47fda6e3e","status":"success","bank_name":"NA","auth_code":"","response_code":"00","error_code":"NA"}]}
+14-08-2024 16:04:38.063 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getRefundstatus::401 - Generated Hash sequence f959f3fc445ed570be417e6d230e917fb38cb310d839aa73140f76a9ec134bbc6b09d159769051ba4f50d6e1ed46a6b06cf8016ff3b20471abf52dfdc7b8b6b2
+14-08-2024 16:04:38.064 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getRefundstatus::417 - Request Body: {"key":"5OEKXZESM","easebuzz_id":"E22092XXXX","hash":"f959f3fc445ed570be417e6d230e917fb38cb310d839aa73140f76a9ec134bbc6b09d159769051ba4f50d6e1ed46a6b06cf8016ff3b20471abf52dfdc7b8b6b2"}
+14-08-2024 16:04:38.729 [34mINFO [0;39m com.saswat.collect.Easebuzz_payment.ServiceImpl.PaymentServiceImpl.getRefundstatus::422 - Response Body: <200 OK OK,{"status":true,"easebuzz_id":"T3W4E9GPRZ","amount":"5.0","txnid":"10003","net_amount_debit":"5.0","refunds":[{"refund_status":"refunded","merchant_refund_date":"2020-01-18","refund_settled_date":"2020-01-19","auto_refund":"NO","refund_amount":"2.0","arn_number":"12345678","refund_id":"RU0ASGKAA2","udf1":null,"udf2":null,"udf3":null,"udf4":null,"udf5":null,"udf6":null,"udf7":null,"chargeback_description":null}]},[Date:"Wed, 14 Aug 2024 10:34:38 GMT", Content-Type:"application/json", Transfer-Encoding:"chunked", Connection:"keep-alive", CF-Ray:"8b304b25dc083c06-BLR", CF-Cache-Status:"DYNAMIC", Set-Cookie:"GCLB=CICpzafQ3tetcRAD; path=/; HttpOnly", "__cf_bm=XKsfhq_GgEdYNy67G663m3lETRP019qiY63BGebLVNs-1723631678-1.0.1.1-0V.S90eb2bJha0xzf2r9ntP0IxXgyf0G62SY02JUBwCtEFfr6beikizV.p2A2TCtWVzQqagqx6xFeCIBTGsAfg; path=/; expires=Wed, 14-Aug-24 11:04:38 GMT; domain=.stoplight.io; HttpOnly; Secure; SameSite=None", Via:"1.1 google", access-control-allow-headers:"*", access-control-allow-methods:"GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS,TRACE", alt-svc:"h3=":443"; ma=86400", Server:"cloudflare"]>
