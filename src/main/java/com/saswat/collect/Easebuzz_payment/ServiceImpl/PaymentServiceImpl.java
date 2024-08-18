@@ -73,6 +73,23 @@ public class PaymentServiceImpl implements PaymentService {
 	@Override
 	public ResponseEntity<String> InitiatePay(InitiatePayRequest initiatePayRequest) {
 
+		// Validate required fields
+		if (initiatePayRequest.getAmount() == null || initiatePayRequest.getAmount() <= 0) {
+			return ResponseEntity.badRequest().body("Amount is required.");
+		}
+		if (initiatePayRequest.getProductinfo() == null || initiatePayRequest.getProductinfo().isEmpty()) {
+			return ResponseEntity.badRequest().body("Product information is required.");
+		}
+		if (initiatePayRequest.getFirstname() == null || initiatePayRequest.getFirstname().isEmpty()) {
+			return ResponseEntity.badRequest().body("First name is required.");
+		}
+		if (initiatePayRequest.getEmail() == null || initiatePayRequest.getEmail().isEmpty()) {
+			return ResponseEntity.badRequest().body("Email is required.");
+		}
+		if (initiatePayRequest.getPhone() == null || initiatePayRequest.getPhone() <= 0) {
+			return ResponseEntity.badRequest().body("Phone number is required.");
+		}
+
 		String UrlString = config.getInitiateUrl();
 
 		String txnid = generateUniqueTxnId();
@@ -188,6 +205,10 @@ public class PaymentServiceImpl implements PaymentService {
 
 	@Override
 	public ResponseEntity<String> getTransactionstatus(TransactionStatus statusrequest) {
+
+		if (statusrequest.getTxnid() == null || statusrequest.getTxnid().isEmpty()) {
+			return ResponseEntity.badRequest().body("txn id is required");
+		}
 
 		TransactionEntity transaction = transactionRepository.findTopByOrderByTxnCreatedAtDesc();
 
@@ -308,6 +329,20 @@ public class PaymentServiceImpl implements PaymentService {
 	@Override
 	public ResponseEntity<String> initiateRefund(RefundRequest refundRequest) throws JsonProcessingException {
 
+		if (refundRequest.getRefund_amount() == null || refundRequest.getRefund_amount() <= 0) {
+			return ResponseEntity.badRequest().body("Refund_amount is required");
+		}
+		if (refundRequest.getPhone() == null || refundRequest.getPhone().isEmpty()) {
+			return ResponseEntity.badRequest().body("Phone is required");
+		}
+		if (refundRequest.getAmount() == null || refundRequest.getAmount() <= 0) {
+			return ResponseEntity.badRequest().body("amount is required");
+
+		}
+		if (refundRequest.getEmail() == null || refundRequest.getEmail().isEmpty()) {
+			return ResponseEntity.badRequest().body("Email is required");
+		}
+
 		TransactionEntity transaction = transactionRepository.findTopByOrderByTxnCreatedAtDesc();
 
 		if (transaction == null) {
@@ -390,10 +425,13 @@ public class PaymentServiceImpl implements PaymentService {
 		return responseEntity;
 	}
 
-	
 	@Override
 	public ResponseEntity<String> getRefundstatus(RefundStatusRequest refundStatusRequest)
 			throws JsonProcessingException {
+
+		if (refundStatusRequest.getEasebuzz_id() == null || refundStatusRequest.getEasebuzz_id().isEmpty()) {
+			return ResponseEntity.badRequest().body("Easebuzz_id is required");
+		}
 
 		String hashString = config.getMerchantKey() + "|" + config.getEasebuzzId() + "|" + config.getMerchantSalt();
 
@@ -416,7 +454,7 @@ public class PaymentServiceImpl implements PaymentService {
 			String requestBody = objectMapper.writeValueAsString(refundStatusRequest);
 			logger.info("Request Body: " + requestBody);
 
-			HttpEntity<RefundStatusRequest> entity = new HttpEntity<>(refundStatusRequest,headers);
+			HttpEntity<RefundStatusRequest> entity = new HttpEntity<>(refundStatusRequest, headers);
 
 			responseEntity = restTemplate.postForEntity(url, entity, String.class);
 			logger.info("Response Body: " + responseEntity);
